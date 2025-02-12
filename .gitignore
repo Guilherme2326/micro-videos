@@ -1,0 +1,45 @@
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos do Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.sqlite3
+
+# Dependências locais e ambientes virtuais
+venv/
+.env
+.env.local
+env/
+*.log
+
+# Configuração do IDE e arquivos de debug
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Arquivos do Docker que não devem ser versionados
+docker-compose.override.yml
+.dockerignore
+
+# Logs e arquivos temporários
+logs/
+*.log
+*.out
+*.pid
+*.seed
+*.state
+
+# Arquivos de cache
+cache/
+*.cache
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Diretórios de migração do Django que podem ser recriados
+**/migrations/*.pyc
+**/migrations/__pycache__/
